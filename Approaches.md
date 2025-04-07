@@ -12,7 +12,7 @@ AASIST uses a **graph attention network** to capture relationships across both s
 **Performance:**  
 - Achieved **state-of-the-art** results on the **ASVspoof 2019 Logical Access dataset**  
 - Robust against known spoofing attacks in controlled settings  
-  *Source: [AASIST GitHub](https://github.com/Jerald-Golden/Audio-Deepfake-Detection)*
+  *Source: [AASIST: AUDIO ANTI-SPOOFING USING INTEGRATED SPECTRO-TEMPORAL GRAPH ATTENTION NETWORKS](https://arxiv.org/pdf/2110.01200v1)
 
 **Advantages:**  
 - Graph-based attention allows it to **detect subtle, complex patterns** in speech—great for catching high-quality deepfakes.
@@ -31,7 +31,7 @@ This approach uses **WavLM**, a large pre-trained model from Microsoft built for
 
 **Performance:**  
 - Demonstrated **high detection accuracy** in benchmark datasets and challenge settings  
-  *Source: [PapersWithCode - WavLM Tasks](https://paperswithcode.com/task/audio-deepfake-detection)*
+  *Source: [arxiv 2408.07414v1](https://arxiv.org/pdf/2408.07414v1)*
 
 **Advantages:**  
 - WavLM benefits from **pretraining on large, diverse speech data**, making it more likely to generalize to different accents and speakers.
@@ -51,7 +51,7 @@ SpecRNet focuses on speed and simplicity. It converts audio into spectrograms an
 
 **Performance:**  
 - Maintains **competitive accuracy** while offering **fast inference speeds**  
-  *Source: [arXiv:2308.14970](https://arxiv.org/pdf/2308.14970.pdf)*
+  *Source: [arXiv 2210.06105](https://arxiv.org/pdf/2210.06105)*
 
 **Advantages:**  
 - Designed for **real-time or near real-time** applications.
@@ -80,8 +80,8 @@ However, a common limitation across most approaches is **generalization to real-
 
 ## References
 
-1. [AASIST GitHub](https://github.com/Jerald-Golden/Audio-Deepfake-Detection)  
+1. [AASIST Paper](https://arxiv.org/pdf/2110.01200v1)
 2. [PapersWithCode - Audio Deepfake Detection](https://paperswithcode.com/task/audio-deepfake-detection)  
-3. [SpecRNet Paper - arXiv 2308.14970](https://arxiv.org/pdf/2308.14970.pdf)
-
+3. [SpecRNet Paper - arXiv 2210.06105](https://arxiv.org/pdf/2210.06105)
+4. [WavLM Model Ensemble for audio deepfake detection](https://arxiv.org/pdf/2408.07414v1)
 ---
