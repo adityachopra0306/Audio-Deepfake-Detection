@@ -4,8 +4,8 @@
 
 ### Challenges Encountered
 
-- **Model Architecture Adaptation**: Adjusting SpecRNet to fit the specific audio format of ASVSpoof and use case.
 - **Computational Constraints**: Ensuring the model could deliver strong performance while being subject to constraints caused due to Kaggle's CPU/GPU usage limits, which could translate to constraints that would allow running on local devices.
+- **Issues with Precison and F1 Score**: The model has high accuracy but lower precision and F1 scores, possible due to overfitting or large class imbalances. Possible solutions have been discussed (focal loss, resampling, etc.) but further need to be explored.
 
 ### Assumptions Made
 
